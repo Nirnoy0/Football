@@ -21,14 +21,13 @@ body{
     color: #ffffff;
     font-size: 64px;
     font-weight: 700;
-
 }
 .toppage-link{
     font-size: 16px;
     color: #FFFFFF;
     background-color: #E02C6D;;
     text-decoration: none;
-    padding: 10px 24px;
+    padding: 10px 20px;
 }
 .top-banner{
     width: 500px;
@@ -36,7 +35,67 @@ body{
 }
 .top-banner:hover {
     transition: width 5s, height 5s;
-    
     width: 600px;
     height: 500px;
+}
+
+/* Players */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-bottom: 200px;
+}
+.players-details{
+    width: 330px;
+    height: 474px;
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 40px rgba(56, 27, 27, 0.15);
+}
+.image{
+    width: 300px;
+    height: 265px;
+    margin: 15px;
+}
+.players-name{
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.players-article{
+    font-size: 16px;
+    margin-left: 15px;
+    color: #6C6C6C;
+}
+
+/* article */
+
+.article{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.article-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.paragraph{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.article-link{
+    background-color: #E02C6D;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.poster{
+    width: 567px;
+    height: 427px;
+    margin-left: 5px;
 }
