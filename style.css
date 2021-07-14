@@ -14,7 +14,7 @@ body{
     padding: 100px;
 }
 .section{
-    padding-left:4%;
+    padding-left:2%;
     width: 50%;
 }
 .top-page-title{
@@ -183,4 +183,54 @@ div a{
 footer p{
     padding-left: 20%;
     font-weight: 700;
+}
+
+
+/* For Mobile Devices */
+
+@media only screen and (max-width:688px) {
+
+    .top-page, .players, .article, .news, .star-players {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+    } 
+    .section{
+        padding-bottom: 50px;
+    }
+    .top-banner{
+        width: 400px;
+        height: 350px;
+    }
+    .article-title, .paragraph{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+    .poster{
+        width: 400px;
+        height: 300px;
+    }
+    .match-title{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .match-list{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+    }
+    .logo{
+        width: 230px;
+        height: 100px;
+    }
+    .social-link{
+        padding-left: 65px;
+    }
+    footer p{
+        font-size: 15px;
+        padding-left: 30px;
+    }
 }
